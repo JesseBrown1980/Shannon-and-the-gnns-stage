@@ -74,4 +74,39 @@ from the result side. The **back end** (`Asolaria-the-after-100-billion-run-…`
 data, decomposes + mints the cubes, and — operator-gated — promotes the geniuses into supervisors/PIDs.
 All gated / E=0 / describe-only — no fire, no cutover without operator authority.
 
+## Prism/Comb 0-loss (2026-07-01) — the boundary THIS stage polices
+
+**The law (CANON):** every prism/comb operation in Asolaria is a **bijection**, and entropy is
+invariant under bijection (`H(f(X)) = H(X)`). The system **re-relates information with 0 loss — it
+never claims compression below entropy**: Shannon's source-coding bound `E[bits] ≥ H(X)` always
+stands, and this repo's namesake gate is where the fleet **polices exactly that boundary**.
+
+- **Comb = execution isolation (forward).** HOOKWALL's PID-stamp + three-verdict gate + the
+  Shannon-execution-gate (`checkShannonGate` before any execution) keep scored results in
+  collision-free lanes — separation without loss, the same shape as CRT prime lanes
+  (`ℤ_M ≅ ℤ_{m₁} × … × ℤ_{m_k}`, exact recombination): run forwards = isolation, backwards =
+  reconstruction. Nothing a comb separates is ever unreassemblable.
+- **Prism = many→1 recombination (backward).** The G3 **reverse_gain** score is the recombiner:
+  many room-answers interfere (mask signals sign-flip to negative gain, honest/leak signals stay
+  positive) and collapse to the kept genius. Nothing is destroyed — **mistakes compact, never
+  delete**: the white rooms relocate and *name* entropy (content-addressed compaction), they do
+  not erase it. Many→1 here is re-relation, not deletion.
+- **The honest bound (repo-canon — hold it).** `handle8 = sha256(content)[:8]` is a **coordinate
+  against a content-addressed store** (`H(content | store) = 0`) — infinite ADDRESSING capacity,
+  **not** lossless infinite compression. A result claiming compression below `H(X)` is exactly what
+  the gate exists to stop: a lossy step cannot hide in a bijection chain, the same way a fabricated
+  signal cannot reach consent — verification = recomputation = applying the inverse map, and
+  HOOKWALL's tamper-evident chained observation rows are that per-node check.
+
+**Status tags:** the 256↔1024 level transcode is **MEASURED** (Q-PRISM commit `53023b6`: exact
+packing at `lcm(8,10) = 40` bits ⇒ 5 bytes ⇄ 4 symbols, round-trip
+`transcode₁₀₂₄→₂₅₆ ∘ transcode₂₅₆→₁₀₂₄ = id`, sha256-identical, Rust==Python). The 43+ level
+ladder as a groupoid (`T_ji ∘ T_ij = id`, `T_jk ∘ T_ij = T_ik`, omnidirectional/path-independent)
+is **CANON frame**; every additional rung is **UNVERIFIED** until its own round-trip proof.
+E=0 throughout — this entry describes; nothing fires.
+
+**Cross-links:** Q-PRISM proofs `53023b6` / `79e8d63` / `de00aca` · waves-cascades (avoid=comb /
+cause=prism duality) · what-is-asolaria (reductions boundary) · N-Nest (integrity dual) ·
+Metatagging repo (physics grounding).
+
 Base: **https://github.com/JesseBrown1980/** · per-link spine nav lives in each repo's `CHAIN.md`.
